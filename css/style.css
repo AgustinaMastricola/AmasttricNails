@@ -1,0 +1,132 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+* {
+  padding: 0%;
+  margin: 0%; }
+
+header {
+  background-color: white; }
+  header li {
+    padding-left: 15px; }
+    header li li a {
+      color: black;
+      font-family: assistant;
+      font-size: 30px; }
+
+.textoLogo {
+  font-size: 35px; }
+
+/* estilo de los slide de CARRUSEL - PAGINA INICIO*/
+.slide {
+  background-color: rgba(210, 210, 210, 0.66);
+  padding: 10px; }
+  .slide .parrafo__slide, .slide .titulo__slide {
+    color: black;
+    font-size: 20px;
+    font-family: assistant; }
+  .slide .titulo__slide {
+    font-size: 25px;
+    text-transform: uppercase; }
+
+/* Estilo de tarjeta - PAGINA INICIO */
+.div__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px; }
+
+.card-title, .card-text {
+  font-family: assistant;
+  font-size: 25px;
+  color: #6a6a6a; }
+
+.card-text {
+  font-size: 20px; }
+
+/* estilo de link de tarjeta */
+.cards__link {
+  font-family: assistant; }
+  .cards__link a:link, .cards__link a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid #6a6a6a;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; }
+  .cards__link a:hover, .cards__link a:active {
+    background-color: #6a6a6a;
+    color: white; }
+
+.encabezados {
+  color: black;
+  font-family: assistant;
+  text-transform: uppercase; }
+
+/* ESTILO SECCION 2 - CONOCENOS MAS - PAGINA INICIO */
+.seccion1 {
+  height: 300px;
+  color: white;
+  background-color: #6a6a6a;
+  padding: 10px;
+  padding-bottom: 20px;
+  margin: 10px; }
+
+.seccion1__inicio {
+  color: white;
+  background-color: #6a6a6a;
+  padding-top: 25px;
+  margin: 10px; }
+  .seccion1__inicio .col1 {
+    width: 30px;
+    font-family: assistant;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 0%;
+    padding-right: 30px; }
+  .seccion1__inicio .col2 {
+    font-family: assistant;
+    text-align: center;
+    font-size: 20px; }
+
+/* ESTILO DE FOOTER + ICONOS - TODAS LAS PAGINAS */
+.icono__footer {
+  width: 50px;
+  height: 50px; }
+
+.icono__facebook {
+  width: 41px;
+  height: 41px; }
+
+.texto__footer, .titulo__footer {
+  font-family: assistant;
+  font-size: 20px;
+  color: white; }
+
+.titulo__footer {
+  font-size: 25px;
+  font-weight: bold; }
+
+.footer__fondo {
+  background-color: black;
+  padding-top: 15px; }
+
+/* ESTILO DE FORMULARIO PAGINA CONTACTOS */
+.formulario__espacio {
+  margin: 80px;
+  font-family: assistant;
+  font-size: 25px; }
+
+.texto__boton {
+  font-family: assistant;
+  font-size: 20px;
+  background-color: #6a6a6a;
+  color: white;
+  border: 2px solid #6a6a6a;
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; }

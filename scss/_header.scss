@@ -1,0 +1,24 @@
+$textos: bodoni moda;
+$titulo: assistant;
+$mediano: 25px;
+$grande: 30px;
+$black: black;
+$white: white;
+$greyforte: rgb(106, 106, 106);
+$greylight:rgba(210, 210, 210, 0.66);
+$mayuscula: uppercase;
+//Estilo de la barra de navegación - TODAS LAS PAGINAS////////////////////////////////
+header{
+    background-color: $white;
+    li{
+        padding-left: 15px;
+    li a {
+        color: $black;
+        font-family: $titulo;
+        font-size: $grande;
+        }
+    }
+}
+.textoLogo{
+    font-size: 35px;
+}

@@ -1,0 +1,38 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+$texto: bodoni moda;
+$titulo: assistant;
+$mediana: 20px;
+$grande: 25px;
+$greyforte: rgb(106, 106, 106);
+$greylight: rgba(210, 210, 210, 0.66);
+$white: white;
+$black: black;
+$mayuscula: uppercase;
+$negrita: bold;
+$ancho:50px;
+$alto:50px;
+
+/* ESTILO DE FOOTER + ICONOS - TODAS LAS PAGINAS */
+.icono__footer{
+    width: $ancho;
+    height: $alto;
+}
+.icono__facebook{
+    width: $ancho - 9px;
+    height: $alto - 9px;
+}
+.texto__footer{
+    font-family: $titulo;
+    font-size: $mediana;
+    color: $white;
+}
+.titulo__footer{
+    @extend .texto__footer;
+    font-size: $grande;
+    font-weight: $negrita;
+}
+.footer__fondo{
+    background-color: $black;
+    padding-top: 15px;
+}

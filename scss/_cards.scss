@@ -1,0 +1,49 @@
+$texto: bodoni moda;
+$titulo: assistant;
+$mediana: 20px;
+$grande: 25px;
+$greyforte: rgb(106, 106, 106);
+$greylight: rgba(210, 210, 210, 0.66);
+$white: white;
+$black: black;
+$mayuscula: uppercase;
+
+/* Estilo de tarjeta - PAGINA INICIO */
+.div__flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.card-title {
+    font-family: $titulo;
+    font-size: $grande;
+    color: $greyforte;
+}
+.card-text {
+    @extend .card-title;
+    font-size: $mediana;
+}
+/* estilo de link de tarjeta */
+.cards__link{
+    font-family: $titulo;
+    a:link, a:visited {
+    background-color: $white;
+    color: $black;
+    border: 2px solid $greyforte;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+    a:hover, a:active {
+    background-color: $greyforte;
+    color: $white;
+    }
+}
+.encabezados{
+    color: $black;
+    font-family: $titulo;
+    text-transform: $mayuscula;
+}

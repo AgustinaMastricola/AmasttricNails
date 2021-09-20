@@ -1,0 +1,28 @@
+$titulo: assistant;
+$mediana: 20px;
+$grande: 25px;
+$greyforte: rgb(106, 106, 106);
+$greylight: rgba(210, 210, 210, 0.66);
+$white: white;
+$black: black;
+$mayuscula: uppercase;
+
+
+/* ESTILO DE FORMULARIO PAGINA CONTACTOS */
+.formulario__espacio{
+    margin: 80px;
+    font-family: $titulo;
+    font-size: $grande;
+}
+.texto__boton{
+    font-family: $titulo;
+    font-size: $mediana;
+    background-color: $greyforte;
+    color: $white;
+    border: 2px solid $greyforte;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
