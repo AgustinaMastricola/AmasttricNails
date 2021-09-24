@@ -23,3 +23,9 @@ $mayuscula: uppercase;
     text-transform: $mayuscula;
     }
 }
+.carousel-inner{
+    height: 500px;
+}
+.carousel, .carousel-inner > .item {
+    height: 100vh;
+}

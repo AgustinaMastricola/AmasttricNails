@@ -1,8 +1,11 @@
+@charset "UTF-8";
+/* Estilo de todo el sitio */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 * {
   padding: 0%;
   margin: 0%; }
 
+/* Estilos de las páginas */
 header {
   background-color: white; }
   header li {
@@ -15,18 +18,6 @@ header {
 .textoLogo {
   font-size: 35px; }
 
-/* estilo de los slide de CARRUSEL - PAGINA INICIO*/
-.slide {
-  background-color: rgba(210, 210, 210, 0.66);
-  padding: 10px; }
-  .slide .parrafo__slide, .slide .titulo__slide {
-    color: black;
-    font-size: 20px;
-    font-family: assistant; }
-  .slide .titulo__slide {
-    font-size: 25px;
-    text-transform: uppercase; }
-
 /* Estilo de tarjeta - PAGINA INICIO */
 .div__flex {
   display: flex;
@@ -36,11 +27,11 @@ header {
 
 .card-title, .card-text {
   font-family: assistant;
-  font-size: 25px;
+  font-size: 30px;
   color: #6a6a6a; }
 
 .card-text {
-  font-size: 20px; }
+  font-size: 25px; }
 
 /* estilo de link de tarjeta */
 .cards__link {
@@ -63,34 +54,39 @@ header {
   font-family: assistant;
   text-transform: uppercase; }
 
-/* ESTILO DE FOOTER + ICONOS - TODAS LAS PAGINAS */
-.icono__footer {
-  width: 50px;
-  height: 50px; }
-
-.icono__facebook {
-  width: 41px;
-  height: 41px; }
-
-.texto__footer, .titulo__footer {
+/* SECCION 4 */
+/* Parrafo */
+.seccion4 h3 {
+  color: black;
   font-family: assistant;
-  font-size: 20px;
-  color: white; }
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline; }
 
-.titulo__footer {
+.seccion4 p {
   font-size: 25px;
-  font-weight: bold; }
+  font-family: assistant;
+  color: black;
+  margin-top: 30px; }
 
-.footer__fondo {
-  background-color: black;
-  padding-top: 15px; }
+/* Marcas */
+.contiene-marcas {
+  display: flex;
+  flex-direction: row; }
 
-.iconos li a {
-  display: block;
-  transition: all 0.3s; }
+.angela {
+  margin-top: 30px;
+  width: 400px;
+  height: 100px; }
 
-.iconos li a:hover {
-  transform: scale(1.1); }
+.pinkmask {
+  width: 300px;
+  height: 100px; }
+
+.cherimoya {
+  width: 400px;
+  height: 200px; }
 
 /* ESTILO DE FORMULARIO PAGINA CONTACTOS */
 .formulario__espacio {
@@ -181,3 +177,56 @@ header {
 .card:hover .desplazar {
   transform: translateY(0px);
   opacity: 1; }
+
+.info-servicio {
+  font-family: assistant;
+  font-weight: bold;
+  font-size: 20px; }
+
+/* Estilos de los componentes de las páginas */
+/* estilo de los slide de CARRUSEL - PAGINA INICIO*/
+.slide {
+  background-color: rgba(210, 210, 210, 0.66);
+  padding: 10px; }
+  .slide .parrafo__slide, .slide .titulo__slide {
+    color: black;
+    font-size: 20px;
+    font-family: assistant; }
+  .slide .titulo__slide {
+    font-size: 25px;
+    text-transform: uppercase; }
+
+.carousel-inner {
+  height: 500px; }
+
+.carousel, .carousel-inner > .item {
+  height: 100vh; }
+
+/* ESTILO DE FOOTER + ICONOS - TODAS LAS PAGINAS */
+.icono__footer {
+  width: 50px;
+  height: 50px; }
+
+.icono__facebook {
+  width: 41px;
+  height: 41px; }
+
+.texto__footer, .titulo__footer {
+  font-family: assistant;
+  font-size: 20px;
+  color: white; }
+
+.titulo__footer {
+  font-size: 25px;
+  font-weight: bold; }
+
+.footer__fondo {
+  background-color: black;
+  padding-top: 15px; }
+
+.iconos li a {
+  display: block;
+  transition: all 0.3s; }
+
+.iconos li a:hover {
+  transform: scale(1.1); }

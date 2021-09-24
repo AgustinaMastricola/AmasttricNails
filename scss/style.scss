@@ -1,7 +1,16 @@
+
+
+
+
+
+/* Estilo de todo el sitio */
 @import "reset"; //correcto
-@import "header";
-@import "carrusel";
-@import "cards";
-@import "footer";
-@import "formulario";
+
+/* Estilos de las páginas */
+@import "inicio";//Estilos para barra de nav, carrusel, tarjetas inicio, seccion3 y 4.
+@import "contacto";
 @import "servicios";//correcto
+
+/* Estilos de los componentes de las páginas */
+@import "carrusel";
+@import "footer";//Footer de todas las páginas
