@@ -197,6 +197,36 @@ header {
   font-weight: bold;
   font-size: 20px; }
 
+/* PAGINA PROMOCIONES - Presentación */
+.presentacion_pages {
+  font-family: assistant;
+  background-color: rgba(169, 169, 169, 0.338); }
+  .presentacion_pages h1 {
+    font-size: 50px; }
+  .presentacion_pages p {
+    font-size: 35px; }
+
+/* PAGINA PROMOCIONES - Tarjetas */
+.tarjeta_promos {
+  padding: 20px;
+  font-family: assistant;
+  text-align: center; }
+
+.tarjeta_promos--style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .tarjeta_promos--style h3 {
+    font-size: 50px;
+    background: rgba(169, 169, 169, 0.338);
+    width: auto; }
+  .tarjeta_promos--style p {
+    font-size: 35px;
+    background: rgba(239, 239, 239, 0.181); }
+  .tarjeta_promos--style a {
+    font-size: 25px;
+    font-weight: bold; }
+
 /* Estilos de los componentes de las páginas */
 /* estilo de los slide de CARRUSEL - PAGINA INICIO*/
 .slide {

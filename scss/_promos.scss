@@ -1,0 +1,40 @@
+/* PAGINA PROMOCIONES - Presentación */
+.presentacion_pages{
+    font-family: assistant;
+    background-color: rgba(169, 169, 169, 0.338);
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 35px;
+    }
+}
+
+
+
+
+
+/* PAGINA PROMOCIONES - Tarjetas */
+.tarjeta_promos{
+    padding: 20px;
+    font-family: assistant;
+    text-align: center;
+}
+.tarjeta_promos--style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3 {
+        font-size: 50px;
+        background: rgba(169, 169, 169, 0.338);
+        width: auto;
+    }
+    p {
+        font-size: 35px;
+        background: rgba(239, 239, 239, 0.181);
+    }
+    a{
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
