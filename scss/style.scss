@@ -7,10 +7,10 @@
 @import "reset"; //correcto
 
 /* Estilos de las páginas */
-@import "inicio";//Estilos para barra de nav, carrusel, tarjetas inicio, seccion3 y 4.
-@import "contacto";
-@import "ss";
-@import "promos";//correcto
+@import "inicio";//faltan imagenes en las tarjetas
+@import "contacto";//finalizada
+@import "servicios";//faltan imagenes y texto en las tarjetas 
+@import "promos";//finalizada
+@import "sobremi";//finalizada
 /* Estilos de los componentes de las páginas */
-@import "carrusel";
 @import "footer";//Footer de todas las páginas
