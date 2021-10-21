@@ -18,9 +18,9 @@
     <!-- link a animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-<body>
+<body class="user-select-none">
   <!-- Barra de navegacion de Bootstrap -->
-  <header>
+  <header  class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand textoLogo" href="../index.html">AMMASTRIC NAILS</a>
@@ -31,13 +31,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+              <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../pages/promos.html">PROMOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
+              <a class="nav-link active" href="../pages/servicios.html">SERVICIOS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../pages/sobremi.html">SOBRE MI</a>
@@ -58,42 +58,50 @@
     </div>
   </div>
 
+<br>
+<br>
 
 
   <!-- TARJETAS SERVICIOS -->
   <!-- SECCION MANICURIA -->
+  <div class="bg-gradient bg-grey text-center py-5 mb-4" id="manicuria">
+    <div class="presentacion_secciones">
+      <h1 class="fw-light">MANICURIA</h1>
+    </div>
+  </div>
+
   <div class="row item-center d-flex justify-content-center">
     <div class="card m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
-      <img class="card-img-top" src="../imagenes/semi-servicios.jpg" alt="Card image cap">
+      <img class="card-img-top" src="../imagenes/semi-servicios.jpg" alt="Uñas agarrando una taza">
       <div class="card-body">
-        <p class="card-title">SEMIPERMANENTE</p>
+        <p class="card-title text-centercard-title text-center">SEMIPERMANENTE</p>
       </div>
     </div>
 
     <div class="card m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
-      <img class="card-img-top" src="../imagenes/kapping-servicios.jpg" alt="Card image cap">
+      <img class="card-img-top" src="../imagenes/kapping-servicios.jpg" alt="Realizando kapping">
       <div class="card-body">
-        <p class="card-text">KAPPING</p>
+        <p class="card-title text-centercard-title text-center">KAPPING</p>
       </div>
     </div>
 
     <div class="card m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
-      <img class="card-img-top" src="../imagenes/soft-servicios.png" alt="Card image cap">
+      <img class="card-img-top" src="../imagenes/soft-servicios.png" alt="Preparacion de SofGel">
       <div class="card-body">
-        <p class="card-text">SOFT GEL</p>
+        <p class="card-title text-centercard-title text-center">SOFT GEL</p>
       </div>
     </div>
 
     <div class="card m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
-      <img class="card-img-top" src="../imagenes/press-servicios.png" alt="Card image cap">
+      <img class="card-img-top" src="../imagenes/press-servicios.png" alt="Press on colocadas">
       <div class="card-body">
-        <p class="card-text">PRESS ON NAILS</p>
+        <p class="card-title text-centercard-title text-center">PRESS ON NAILS</p>
       </div>
     </div>
   </div>
 
   <!-- SECCION PEDICURIA -->
-  <div class="bg-gradient bg-grey text-center py-5 mb-4">
+  <div class="bg-gradient bg-grey text-center py-5 mb-4" id="pedicuria">
     <div class="presentacion_secciones">
       <h1 class="fw-light">PEDICURIA</h1>
     </div>
@@ -101,75 +109,53 @@
 
   <div class="row item-center d-flex justify-content-center">
     <div class="card m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
-      <img class="card-img-top" src="../imagenes/pies-servicios.jpg" alt="Card image cap">
+      <img class="card-img-top" src="../imagenes/pies-servicios.jpg" alt="Pedicuría con torno">
       <div class="card-body">
-        <p class="card-text">PEDICURIA</p>
+        <p class="card-title text-center">PEDICURIA</p>
       </div>
     </div>
 
 
     <div class="card m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
-      <img class="card-img-top" src="../imagenes/semipies-servicios.jpg" alt="Card image cap">
+      <img class="card-img-top" src="../imagenes/semipies-servicios.jpg" alt="Esmaltado de pies">
       <div class="card-body">
-        <p class="card-text">ESMALTADO</p>
+        <p class="card-title text-center">ESMALTADO</p>
       </div>
     </div>
   </div>
   <!-- SECCION OTROS SERVICIOS -->
-  <div class="bg-gradient bg-grey text-center py-5 mb-4 ">
+  <div class="bg-gradient bg-grey text-center py-5 mb-4" id="otrosServicios">
     <div class="presentacion_secciones">
       <h1 class="fw-light">FACIALES</h1>
     </div>
   </div>
   <div class="row item-center d-flex justify-content-center">
     <div class="card m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
-      <img class="card-img-top" src="../imagenes/pestañas-servicios.jpg" alt="Card image cap">
+      <img class="card-img-top" src="../imagenes/pestañas-servicios.jpg" alt="Pestañas pelo por pelo">
       <div class="card-body">
-        <p class="card-text">PESTAÑAS</p>
+        <p class="card-title text-center">PESTAÑAS</p>
       </div>
     </div>
 
     <div class="card m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
-      <img class="card-img-top" src="../imagenes/cejas-servicios.jpg" alt="Card image cap">
+      <img class="card-img-top" src="../imagenes/cejas-servicios.jpg" alt="Perfilado de cejas">
       <div class="card-body">
-        <p class="card-text">CEJAS</p>
+        <p class="card-title text-center">CEJAS</p>
       </div>
     </div>
   </div>
 
   <!-- PIE DE PAGINA -->
-  <footer class="text-center footer-style footer__fondo">
-    <div class="container ">
-      <div class="row">
-        <div class="col-md-4 footer-col">
-          <h3 class="titulo__footer">Dirección</h3>
-          <p class="texto__footer">
-            Córdoba Capital - Argentina <br />
-            Av. Colón 345 - Centro
-          </p>
-        </div>
-        <div class="col-md-4 footer-col">
-          <h3 class="titulo__footer">Seguinos en nuestras redes sociales</h3>
-          <ul class="list-inline row iconos">
-            <li>
-              <a target="_blank" href="https://www.facebook.com/"><img class="icono__facebook"
-                  src="../imagenes/facebook.png"></a>
-            </li>
-            <li>
-              <a target="_blank" href="https://www.instagram.com/amasttric_nails/"><img class="icono__footer"
-                  src="../imagenes/instagram.png"></a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4 footer-col">
-          <h3 class="titulo__footer">Consultas</h3>
-          <p class="texto__footer">Contactanos por WhatsApp</p>
-          <li><a target="_blank" href="https://wa.me/543516783638"><img class="icono__footer"
-                src="../imagenes/whatsapp.png"></a></li>
-        </div>
-      </div>
+  <footer class="flex-shrink-0 py-4 bg-dark text-white">
+    <div class="container d-flex align-items-center justify-content-lg-between text-center">
+        <h5>Copyright &copy; Amasttric Nails</h5>
+        <ul class="nav col-md-4 align-items-center justify-content-sm-around d-flex">
+            <li><a target="_blank" href="https://www.facebook.com/"><img src="./imagenes/facebook.svg"></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/amasttric_nails/"><img src="./imagenes/instagram.svg"></a></li>
+            <li><a target="_blank" href="https://wa.me/543516783638"><img src="./imagenes/whatsapp.svg"></a></li>
+        </ul>
     </div>
-  </footer>
+</footer>
 
 
   <!-- JavaScript Bundle with Popper -->

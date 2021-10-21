@@ -1,0 +1,25 @@
+
+$texto: bodoni moda;
+$titulo: assistant;
+$mediana: 20px;
+$grande: 25px;
+$greyforte: rgb(106, 106, 106);
+$greylight: rgba(210, 210, 210, 0.66);
+$white: white;
+$black: black;
+$mayuscula: uppercase;
+$negrita: bold;
+$ancho:50px;
+$alto:50px;
+
+/* ESTILO DE FOOTER + ICONOS - TODAS LAS PAGINAS */
+.background{
+    background-color: rgb(255, 201, 201) ;
+    h3{
+        font-family: $titulo;
+        font-size: $grande;
+        text-transform: $mayuscula;
+        color: rgb(0, 0, 0);
+    }
+}
+

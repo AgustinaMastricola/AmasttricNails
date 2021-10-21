@@ -1,11 +1,10 @@
 @charset "UTF-8";
-/* Estilo de todo el sitio */
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+/* Reset margin y padding */
 * {
   padding: 0%;
   margin: 0%; }
 
-/* Estilos de las páginas */
+/* Estilos de cada página */
 header {
   background-color: white; }
   header li {
@@ -23,62 +22,16 @@ header {
   font-family: assistant; }
   .carrusel_estilo h1 {
     text-transform: uppercase; }
-  .carrusel_estilo p {
+  .carrusel_estilo p, .carrusel_estilo a {
     font-size: 30px; }
 
-/* Estilo de tarjeta - PAGINA INICIO */
-.div__flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px; }
-
-.card-title, .card-text {
+/* Titulo de las tajetas de pagina INICIO Y SERVICIOS */
+.card-title {
   font-family: assistant;
   font-size: 30px;
   color: #6a6a6a; }
 
-.card-text {
-  font-size: 25px; }
-
-/* estilo de link de tarjeta */
-.cards__link {
-  font-family: assistant; }
-  .cards__link a:link,
-  .cards__link a:visited {
-    background-color: white;
-    color: black;
-    border: 2px solid #6a6a6a;
-    border-radius: 30px;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block; }
-  .cards__link a:hover,
-  .cards__link a:active {
-    background-color: #6a6a6a;
-    color: white; }
-
-.encabezados {
-  color: black;
-  font-family: assistant;
-  text-transform: uppercase; }
-
-/* SECCION 3 - PAGINA INICIO */
-.seccion3 h3 {
-  color: white;
-  font-family: assistant;
-  font-size: 30px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: underline; }
-
-.seccion3 p {
-  font-size: 25px;
-  font-family: assistant;
-  color: white;
-  margin-top: 30px; }
-
+/*-- QUIENES SOMOS - Sección 3 - PAGINA INICIO*/
 /* SECCION 4- PAGINA INICIO */
 /* Parrafo */
 .seccion4 h3 {
@@ -139,13 +92,13 @@ header {
 /* PAGINA PROMOCIONES - Presentación */
 .presentacion_pages {
   font-family: assistant;
-  background-color: rgba(169, 169, 169, 0.338); }
+  background-color: rgba(137, 35, 35, 0.338); }
   .presentacion_pages h1 {
     font-size: 50px; }
   .presentacion_pages h2 {
     font-size: 35px;
     text-transform: uppercase; }
-  .presentacion_pages p {
+  .presentacion_pages p, .presentacion_pages a {
     font-size: 25px; }
 
 /* PAGINA PROMOCIONES - Tarjetas */
@@ -320,32 +273,12 @@ header {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px; } }
 
-/* Estilos de los componentes de las páginas */
+/* Estilos que se repiten en todas las paginas */
 /* ESTILO DE FOOTER + ICONOS - TODAS LAS PAGINAS */
-.icono__footer {
-  width: 50px;
-  height: 50px; }
-
-.icono__facebook {
-  width: 41px;
-  height: 41px; }
-
-.texto__footer, .titulo__footer {
-  font-family: assistant;
-  font-size: 20px;
-  color: white; }
-
-.titulo__footer {
-  font-size: 25px;
-  font-weight: bold; }
-
-.footer__fondo {
-  background-color: black;
-  padding-top: 15px; }
-
-.iconos li a {
-  display: block;
-  transition: all 0.3s; }
-
-.iconos li a:hover {
-  transform: scale(1.1); }
+.background {
+  background-color: #ffc9c9; }
+  .background h3 {
+    font-family: assistant;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: black; }

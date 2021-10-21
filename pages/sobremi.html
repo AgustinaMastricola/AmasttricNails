@@ -17,9 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@231;300&display=swap" rel="stylesheet">
     <!-- link a animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-<body>
+<body class="user-select-none">
     <!-- Barra de navegacion de Bootstrap -->
-    <header>
+    <header class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand textoLogo" href="../index.html">AMMASTRIC NAILS</a>
@@ -29,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/promos.html">PROMOS</a>
@@ -38,7 +38,7 @@
                             <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/sobremi.html">SOBRE MI</a>
+                            <a class="nav-link active" href="../pages/sobremi.html">SOBRE MI</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
@@ -60,7 +60,7 @@
     <div class="container">
         <ul class="timeline">
             <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="../imagenes/sobremi1.png" alt="..." /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="../imagenes/sobremi1.png" alt="Repisa con esmaltes" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4 style="font-size: 40px;">Nuestra visión</h4>
@@ -69,7 +69,7 @@
                 </div>
             </li>
             <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="../imagenes/sobremi2.png" alt="..." /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="../imagenes/sobremi2.png" alt="Spa de pies" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4 style="font-size: 40px;">Calidad</h4>
@@ -78,7 +78,7 @@
                 </div>
             </li>
             <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="../imagenes/sobremi3.png" alt="..." /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="../imagenes/sobremi3.png" alt="Realización de manicuría" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4 style="font-size: 40px;">Objetivos</h4>
@@ -87,7 +87,7 @@
                 </div>
             </li>
             <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="../imagenes/sobremi4.png" alt="..." /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="../imagenes/sobremi4.png" alt="Botellas de esmaltes" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4 style="font-size: 40px;">Logros</h4>
@@ -100,33 +100,14 @@
 </section>
 
 <!-- PIE DE PAGINA -->
-<footer class="text-center footer-style footer__fondo">
-    <div class="container ">
-        <div class="row">
-            <div class="col-md-4 footer-col">
-                <h3 class="titulo__footer">Dirección</h3>
-                <p class="texto__footer">
-                    Córdoba Capital - Argentina <br />
-                    Av. Colón 345 - Centro
-                </p>
-            </div>
-            <div class="col-md-4 footer-col">
-                <h3 class="titulo__footer">Seguinos en nuestras redes sociales</h3>
-                <ul class="list-inline row">
-                    <li>
-                        <a  target="_blank" href="https://www.facebook.com/"><img class="icono__facebook" src="../imagenes/facebook.png"></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.instagram.com/amasttric_nails/"><img class="icono__footer" src="../imagenes/instagram.png"></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4 footer-col ">
-                <h3 class="titulo__footer">Consultas</h3>
-                <p class="texto__footer">Contactanos por WhatsApp</p>
-                <a target="_blank" href="https://wa.me/543516783638"><img class="icono__footer" src="../imagenes/whatsapp.png"></a>
-            </div>
-        </div>
+<footer class="flex-shrink-0 py-4 bg-dark text-white">
+    <div class="container d-flex align-items-center justify-content-lg-between text-center">
+        <h5>Copyright &copy; Amasttric Nails</h5>
+        <ul class="nav col-md-4 align-items-center justify-content-sm-around d-flex">
+            <li><a target="_blank" href="https://www.facebook.com/"><img src="./imagenes/facebook.svg"></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/amasttric_nails/"><img src="./imagenes/instagram.svg"></a></li>
+            <li><a target="_blank" href="https://wa.me/543516783638"><img src="./imagenes/whatsapp.svg"></a></li>
+        </ul>
     </div>
 </footer>
 

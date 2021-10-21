@@ -27,67 +27,20 @@ header {
   h1{
   text-transform: uppercase;
   }
-  p{
+  p, a{
     font-size: 30px;
   }
 }
 
-/* Estilo de tarjeta - PAGINA INICIO */
-.div__flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px;
-}
+/* Titulo de las tajetas de pagina INICIO Y SERVICIOS */
 .card-title {
   font-family: $titulo;
   font-size: $grande;
   color: $greyforte;
 }
-.card-text {
-  @extend .card-title;
-  font-size: $mediano;
-}
-/* estilo de link de tarjeta */
-.cards__link {
-  font-family: $titulo;
-  a:link,
-  a:visited {
-    background-color: $white;
-    color: $black;
-    border: 2px solid $greyforte;
-    border-radius: 30px;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  a:hover,
-  a:active {
-    background-color: $greyforte;
-    color: $white;
-  }
-}
-.encabezados {
-  color: $black;
-  font-family: $titulo;
-  text-transform: $mayuscula;
-}
-/* SECCION 3 - PAGINA INICIO */
-.seccion3 h3 {
-    color: $white;
-    font-family: assistant;
-    font-size: $grande;
-    text-transform: $mayuscula;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  .seccion3 p {
-    font-size: $mediano;
-    font-family: assistant;
-    color: $white;
-    margin-top: 30px;
-  }
+
+/*-- QUIENES SOMOS - Sección 3 - PAGINA INICIO*/
+
 
 /* SECCION 4- PAGINA INICIO */
 /* Parrafo */
