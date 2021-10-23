@@ -17,139 +17,108 @@
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@231;300&display=swap" rel="stylesheet">
     <!-- link a animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-<body>
-    <!-- Barra de navegacion de Bootstrap -->
-    <header>
+
+<body class="user-select-none">
+<!-- BARRA DE NAVEGACION -->
+    <header class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand textoLogo" href="../index.html">AMMASTRIC NAILS</a>
+                <a class="navbar-brand myEstilo_logo" href="../index.html">AMMASTRIC NAILS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/promos.html">PROMOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/sobremi.html">SOBRE MI</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="../index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="../pages/promos.html">PROMOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/servicios.html">SERVICIOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/sobremi.html">SOBRE MI</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/contacto.html">CONTACTO</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <!-- PRESENTACIÓN DE PROMOCIONES -->
-    <div class="bg-gradient bg-grey text-center py-5 mb-4 presentacion_pages">
+    
+<!-- PRESENTACIÓN DE PROMOCIONES -->
+    <div class="bg-gradient bg-grey text-center py-5 mb-4 myEstilo_presentacion">
         <div class="container ">
             <h1 class="fw-light">PROMOCIONES</h1>
             <p>¡Disfrutá de las increibles promociones que tenemos para vos!</p>
         </div>
     </div>
-<!-- PROMOCIONES -->
-<!-- Tarjeta promociones 1  -->
-<div class="row tarjeta_promos">
-    <div class="col-md-7">
-      <a href="#">
-        <img class="img-fluid rounded mb-3 mb-md-0" src="../imagenes/promos1.jpg" alt="#">
-      </a>
-    </div>
-    <div class="col-md-5 tarjeta_promos--style">
-      <h3>2 x 1</h3>
-      <p>Si venis con una companía, accedes a un 2x1 en esmaltado semi-permanente todos los <b>LUNES.</b></p>
-      <a class="btn btn-outline-dark col-4 mx-auto" href="../pages/contacto.html">RESERVAR TURNO</a>
-    </div>
-  </div>
-  <hr>
-<!-- Tarjeta promociones 2  -->
-  <div class="row tarjeta_promos">
-    <div class="col-md-7 ">
-      <a href="#">
-        <img class="img-fluid rounded mb-3 mb-md-0" src="../imagenes/promos2.jpg" alt="">
-      </a>
-    </div>
-    <div class="col-md-5 tarjeta_promos--style">
-      <h3>Gift Card</h3>
-      <p>¿No sabes qué regalar? Gift Card válida por un servicio <b>SEMIPERMANENTE.</b></p>
-      <a class="btn btn-outline-dark col-4 mx-auto" href="../pages/contacto.html">SOLICITAR</a>
-    </div>
-  </div>
-  <hr>
-<!-- Tarjeta promociones 3  -->
-  <div class="row tarjeta_promos">
-    <div class="col-md-7">
-      <a href="#">
-        <img class="img-fluid rounded mb-3 mb-md-0" src="../imagenes/promos3.jpg" alt="">
-      </a>
-    </div>
-    <div class="col-md-5 tarjeta_promos--style">
-      <h3>Cumpleaños</h3>
-      <p>Queremos que pases un día especial, por eso reservando un turno el día de tu cumpleaños, obtené un <b>20% OFF en cualquier servicio,</b> presentando tu DNI.</p>
-      <a class="btn  btn-outline-dark col-4 mx-auto" href="../pages/contacto.html">RESERVAR TURNO</a>
-    </div>
-  </div>
-  <hr>
-<!-- Tarjeta promociones 4  -->
-  <div class="row tarjeta_promos">
-    <div class="col-md-7">
-      <a href="#">
-        <img class="img-fluid rounded mb-3 mb-md-0" src="../imagenes/promos4.jpg" alt="">
-      </a>
-    </div>
-    <div class="col-md-5 tarjeta_promos--style">
-      <h3>Referidos</h3>
-      <p>Por cada persona que venga de tu parte, obtené un <b>10%</b> OFF para tu próximo esmaltado semi-permanente.</p>
-    </div>
-  </div>
-  <hr>
-</div>
 
-
-
-<!-- PIE DE PAGINA -->
-<footer class="text-center footer-style footer__fondo">
-    <div class="container ">
-        <div class="row">
-            <div class="col-md-4 footer-col">
-                <h3 class="titulo__footer">Dirección</h3>
-                <p class="texto__footer">
-                    Córdoba Capital - Argentina <br />
-                    Av. Colón 345 - Centro
-                </p>
-            </div>
-            <div class="col-md-4 footer-col">
-                <h3 class="titulo__footer">Seguinos en nuestras redes sociales</h3>
-                <ul class="list-inline row">
-                    <li>
-                        <a  target="_blank" href="https://www.facebook.com/"><img class="icono__facebook" src="../imagenes/facebook.png"></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.instagram.com/amasttric_nails/"><img class="icono__footer" src="../imagenes/instagram.png"></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4 footer-col ">
-                <h3 class="titulo__footer">Consultas</h3>
-                <p class="texto__footer">Contactanos por WhatsApp</p>
-                <a target="_blank" href="https://wa.me/543516783638"><img class="icono__footer" src="../imagenes/whatsapp.png"></a>
-            </div>
+<!-- TARJETAS PROMOCIONES -->
+<!-- Tarjeta 1  -->
+    <div class="row tarjeta_promos">
+        <div class="col-md-7">
+            <a href="#">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="../imagenes/promos1.jpg" alt="Manos con manicuría">
+            </a>
+        </div>
+        <div class="col-md-5 tarjeta_promos--style">
+            <h3>2 x 1</h3>
+            <p>Si venis con una companía, accedes a un <b>2x1</b> en esmaltado semi-permanente todos los <b>LUNES.</b></p>
+            <a class="btn btn-outline-dark d-flex justify-content-center mx-auto" href="../pages/contacto.html">RESERVAR TURNO</a>
         </div>
     </div>
-</footer>
+<hr>
+<!-- Tarjeta 2  -->
+    <div class="row tarjeta_promos">
+        <div class="col-md-7 ">
+            <a href="#">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="../imagenes/promos2.jpg" alt="Botellas de esmaltes">
+            </a>
+        </div>
+        <div class="col-md-5 tarjeta_promos--style">
+            <h3>Gift Card</h3>
+            <p>¿No sabes qué regalar? Gift Card válida por un servicio <b>SEMIPERMANENTE.</b></p>
+            <a class="btn btn-outline-dark d-flex justify-content-center mx-auto" href="../pages/contacto.html">SOLICITAR</a>
+        </div>
+    </div>
+<hr>
+<!-- Tarjeta 3  -->
+    <div class="row tarjeta_promos">
+        <div class="col-md-7">
+            <a href="#">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="../imagenes/promos3.png" alt="Mujer con pestañas y cejas trabajadas">
+            </a>
+        </div>
+        <div class="col-md-5 tarjeta_promos--style">
+            <h3>Cumpleaños</h3>
+            <p>Queremos que pases un día especial, por eso reservando un turno el día de tu cumpleaños, obtené un <b>20% OFF en cualquier servicio,</b> presentando tu DNI.</p>
+            <a class="btn  btn-outline-dark d-flex justify-content-center mx-auto" href="../pages/contacto.html">RESERVAR TURNO</a>
+        </div>
+    </div>
+<hr>
+<!-- Tarjeta 4  -->
+    <div class="row tarjeta_promos">
+        <div class="col-md-7">
+            <a href="#">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="../imagenes/promos4.jpg" alt="Uñas con nailArt LOVE.">
+            </a>
+        </div>
+        <div class="col-md-5 tarjeta_promos--style">
+            <h3>Referidos</h3>
+            <p>Por cada persona que venga de tu parte, obtené un <b>10%</b> OFF para tu próximo esmaltado semi-permanente.</p>
+        </div>
+    </div>
+<hr>
 
+<!-- PIE DE PAGINA -->
+    <footer class="flex-shrink-0 py-4 bg-dark text-white">
+        <div class="container d-flex align-items-center justify-content-lg-between text-center">
+            <h5 class="miEstilo_copy">Copyright &copy; Amasttric Nails</h5>
+            <ul class="nav col-4 col-md-3 align-items-center justify-content-sm-around d-flex">
+                <li><a target="_blank" href="https://www.facebook.com/"><img src="../imagenes/facebook.svg"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/amasttric_nails/"><img src="../imagenes/instagram.svg"></a></li>
+                <li><a target="_blank" href="https://wa.me/543516783638"><img src="../imagenes/whatsapp.svg"></a></li>
+            </ul>
+        </div>
+    </footer>
 
 <!-- JavaScript Bundle with Popper -->
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 </body>
 </html>

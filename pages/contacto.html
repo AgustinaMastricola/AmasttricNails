@@ -17,126 +17,83 @@
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@231;300&display=swap" rel="stylesheet">
     <!-- link a animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-<body>
-    <!-- Barra de navegacion de Bootstrap -->
-    <header>
+
+<body class="user-select-none">
+<!-- BARRA DE NAVEGACION -->
+    <header class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand textoLogo" href="../index.html">AMMASTRIC NAILS</a>
+                <a class="navbar-brand myEstilo_logo" href="../index.html">AMMASTRIC NAILS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/promos.html">PROMOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/sobremi.html">SOBRE MI</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="../index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/promos.html">PROMOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/servicios.html">SERVICIOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/sobremi.html">SOBRE MI</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="../pages/contacto.html">CONTACTO</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
+    
     <!-- PRESENTACIÓN DE CONTACTO -->
-    <div class="bg-gradient bg-grey text-center py-5 mb-4 presentacion_pages">
+    <div class="bg-gradient bg-grey text-center py-5 mb-4 myEstilo_presentacion">
         <div class="container ">
             <h1 class="fw-light">CONTACTO</h1>
             <p>¡Dejanos tus datos para recibir todas las novedades!</p>
         </div>
     </div>
-    </main>
-    <!-- FORMULARIO -->
-    <form class="formulario__espacio">
-        <div class="row mb-3">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-            <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3">
-            </div>
-        </div>
-        <div class="row mb-3">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
-            <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword3">
-            </div>
-        </div>
-        <fieldset class="row mb-3">
-            <legend class="col-form-label col-sm-2 pt-0">Género</legend>
-            <div class="col-sm-10">
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                    <label class="form-check-label" for="gridRadios1">Femenino</label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                    <label class="form-check-label" for="gridRadios2">Masculino</label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                    <label class="form-check-label" for="gridRadios3">Ninguno de los anteriores.</label>
-                </div>
-            </div>
-        </fieldset>
-        <div class="row mb-3">
-            <div class="col-sm-10 offset-sm-2">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                    <label class="form-check-label" for="gridCheck1">Deseo recibir novedades, promociones y más.</label>
-                </div>
-            </div>
-        </div>
-        <button class="texto__boton" type="submit" class="btn btn-primary">Enviar</button>
-        <button class="texto__boton" type="reset" value="reset" class="btn btn-primary">Borrar</button>
-    </form>
-
-
-
-<!-- PIE DE PAGINA -->
-<footer class="text-center footer-style footer__fondo">
-    <div class="container ">
-        <div class="row">
-            <div class="col-md-4 footer-col">
-                <h3 class="titulo__footer">Dirección</h3>
-                <p class="texto__footer">
-                    Córdoba Capital - Argentina <br />
-                    Av. Colón 345 - Centro
-                </p>
-            </div>
-            <div class="col-md-4 footer-col">
-                <h3 class="titulo__footer">Seguinos en nuestras redes sociales</h3>
-                <ul class="list-inline row">
-                    <li>
-                        <a  target="_blank" href="https://www.facebook.com/"><img class="icono__facebook" src="../imagenes/facebook.png"></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.instagram.com/amasttric_nails/"><img class="icono__footer" src="../imagenes/instagram.png"></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4 footer-col ">
-                <h3 class="titulo__footer">Consultas</h3>
-                <p class="texto__footer">Contactanos por WhatsApp</p>
-                <a target="_blank" href="https://wa.me/543516783638"><img class="icono__footer" src="../imagenes/whatsapp.png"></a>
+    
+<!-- FORMULARIO -->
+    <div class="myEstilo_form container w-75 mt-5 mb-5 mb-10 rounded shadow">
+        <div class="row align-items-stretch ">
+            <!-- Imagen del formulario -->
+            <div class="col bg rounded d-none d-lg-block col-md-5 col-lg-5 col-xl-6"></div>
+            <!-- formulario -->
+            <div class="col p-4 rounded-end">
+                <h2 class="text-center py-5">Formulario de contacto</h2>
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" name="nombre">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="telefono" class="form-label">Teléfono</label>
+                        <input type="number" class="form-control" name="telefono">
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" name="news" class="form-check-input">
+                        <label for="news" class="form-check-label" >Deseo recibir novedades, promociones y más. </label>
+                    </div>
+                        <button class="myEstilo_form--boton btn btn-outline-dark" type="submit">Enviar</button>
+                        <button class="myEstilo_form--boton btn btn-outline-dark" type="reset" value="reset">Borrar</button>
+                </form>
             </div>
         </div>
     </div>
-</footer>
 
+<!-- PIE DE PAGINA -->
+    <footer class="flex-shrink-0 py-4 bg-dark text-white">
+        <div class="container d-flex align-items-center justify-content-lg-between text-center">
+            <h5 class="miEstilo_copy">Copyright &copy; Amasttric Nails</h5>
+            <ul class="nav col-4 col-md-3 align-items-center justify-content-sm-around d-flex">
+                <li><a target="_blank" href="https://www.facebook.com/"><img src="../imagenes/facebook.svg"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/amasttric_nails/"><img src="../imagenes/instagram.svg"></a></li>
+                <li><a target="_blank" href="https://wa.me/543516783638"><img src="../imagenes/whatsapp.svg"></a></li>
+            </ul>
+        </div>
+    </footer>
 
 <!-- JavaScript Bundle with Popper -->
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 </body>
 </html>
