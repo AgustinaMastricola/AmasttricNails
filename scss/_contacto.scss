@@ -1,28 +1,29 @@
-$titulo: assistant;
-$mediana: 20px;
-$grande: 25px;
-$greyforte: rgb(106, 106, 106);
-$greylight: rgba(210, 210, 210, 0.66);
-$white: white;
-$black: black;
-$mayuscula: uppercase;
-
+@import "variables";
 
 /* ESTILO DE FORMULARIO PAGINA CONTACTOS */
-.formulario__espacio{
-    margin: 80px;
-    font-family: $titulo;
-    font-size: $grande;
-}
-.texto__boton{
-    font-family: $titulo;
-    font-size: $mediana;
-    background-color: $greyforte;
-    color: $white;
-    border: 2px solid $greyforte;
-    border-radius: 30px;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+.myEstilo_form{
+    font-family: $tipografia-general;
+    font-size: $fuente-chica;
+    .bg{
+        background-image:url("../imagenes/manicura-inicio.png");
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-color: transparent;
+        object-fit: cover;
+    }
+    h2{
+        text-transform: $transform;
+    }
+    .myEstilo_form--boton {
+        font-family: $tipografia-general;
+        font-size: $fuente-chica;
+        background-color: $background-grisOsc;
+        color: $color-texto--black;
+        border: 2px solid $color-texto--black;
+        border-radius: 30px;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
 }
