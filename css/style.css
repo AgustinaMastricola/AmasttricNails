@@ -1,37 +1,26 @@
 @charset "UTF-8";
-/* Reset margin y padding */
-* {
-  padding: 0%;
-  margin: 0%; }
-
 /* Estilos de cada página */
-header {
-  background-color: white; }
-  header li {
-    padding-left: 15px; }
-    header li li a {
-      color: black;
-      font-family: assistant;
-      font-size: 30px; }
-
-.textoLogo {
-  font-size: 35px; }
-
-/* estilo de CARRUSEL - PAGINA INICIO*/
-.carrusel_estilo {
+/* TEXTOS*/
+/*Colores*/
+/*Fuente*/
+/*Tamaño*/
+/*Transform y decoration*/
+/*FONDOS*/
+/*Fondos de secciones y titulos*/
+/* CARRUSEL - PAGINA INICIO*/
+.myEstilo_carrusel {
   font-family: assistant; }
-  .carrusel_estilo h1 {
+  .myEstilo_carrusel h1 {
     text-transform: uppercase; }
-  .carrusel_estilo p, .carrusel_estilo a {
+  .myEstilo_carrusel p, .myEstilo_carrusel a {
     font-size: 30px; }
 
 /* Titulo de las tajetas de pagina INICIO Y SERVICIOS */
-.card-title {
+.miEstilo_card--titulo {
   font-family: assistant;
   font-size: 30px;
   color: #6a6a6a; }
 
-/*-- QUIENES SOMOS - Sección 3 - PAGINA INICIO*/
 /* SECCION 4- PAGINA INICIO */
 /* Parrafo */
 .seccion4 h3 {
@@ -63,43 +52,48 @@ header {
   width: 400px;
   height: 200px; }
 
+/* TEXTOS*/
+/*Colores*/
+/*Fuente*/
+/*Tamaño*/
+/*Transform y decoration*/
+/*FONDOS*/
+/*Fondos de secciones y titulos*/
 /* ESTILO DE FORMULARIO PAGINA CONTACTOS */
-.formulario__espacio {
-  margin: 80px;
+.myEstilo_form {
   font-family: assistant;
-  font-size: 25px; }
-
-.texto__boton {
-  font-family: assistant;
-  font-size: 20px;
-  background-color: #6a6a6a;
-  color: white;
-  border: 2px solid #6a6a6a;
-  border-radius: 30px;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block; }
-
-.presentacion_secciones {
-  font-family: assistant;
-  background-color: rgba(169, 169, 169, 0.338);
-  height: 50px;
-  width: 100%;
-  font-size: 40px;
-  text-transform: uppercase; }
-
-/* PAGINA PROMOCIONES - Presentación */
-.presentacion_pages {
-  font-family: assistant;
-  background-color: rgba(137, 35, 35, 0.338); }
-  .presentacion_pages h1 {
-    font-size: 50px; }
-  .presentacion_pages h2 {
-    font-size: 35px;
+  font-size: 20px; }
+  .myEstilo_form .bg {
+    background-image: url("../imagenes/manicura-inicio.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-color: transparent;
+    object-fit: cover; }
+  .myEstilo_form h2 {
     text-transform: uppercase; }
-  .presentacion_pages p, .presentacion_pages a {
-    font-size: 25px; }
+  .myEstilo_form .myEstilo_form--boton {
+    font-family: assistant;
+    font-size: 20px;
+    background-color: rgba(169, 169, 169, 0.338);
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; }
+
+/* TEXTOS*/
+/*Colores*/
+/*Fuente*/
+/*Tamaño*/
+/*Transform y decoration*/
+/*FONDOS*/
+/*Fondos de secciones y titulos*/
+/* Estilo para la información de las tarjetas servicios */
+.myEstilo_info--servicios {
+  font-family: assistant;
+  font-size: 20px; }
 
 /* PAGINA PROMOCIONES - Tarjetas */
 .tarjeta_promos {
@@ -122,11 +116,23 @@ header {
     font-size: 25px;
     font-weight: bold; }
 
-/* Estilos página sobre mi */
+/* TEXTOS*/
+/*Colores*/
+/*Fuente*/
+/*Tamaño*/
+/*Transform y decoration*/
+/*FONDOS*/
+/*Fondos de secciones y titulos*/
+/* Estilo pagina sobre mi - linea del tiempo */
 .timeline {
   position: relative;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  font-family: assistant; }
+  .timeline h4 {
+    text-transform: uppercase; }
+  .timeline p {
+    font-size: 30px; }
 
 .timeline:before {
   position: absolute;
@@ -182,7 +188,7 @@ header {
   border-radius: 100%; }
 
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-  font-size: 10px;
+  font-size: 30px;
   line-height: 14px;
   margin-top: 12px; }
 
@@ -211,7 +217,7 @@ header {
   color: inherit; }
 
 .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
-  text-transform: none; }
+  text-transform: uppercase; }
 
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
@@ -235,7 +241,7 @@ header {
     height: 100px;
     margin-left: -50px; }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-    font-size: 13px;
+    font-size: 20px;
     line-height: 18px;
     margin-top: 16px; }
   .timeline > li.timeline-inverted > .timeline-panel {
@@ -253,7 +259,7 @@ header {
     height: 150px;
     margin-left: -75px; }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
     margin-top: 30px; }
   .timeline > li.timeline-inverted > .timeline-panel {
@@ -274,11 +280,62 @@ header {
     padding: 0 100px 20px 20px; } }
 
 /* Estilos que se repiten en todas las paginas */
-/* ESTILO DE FOOTER + ICONOS - TODAS LAS PAGINAS */
-.background {
-  background-color: #ffc9c9; }
-  .background h3 {
-    font-family: assistant;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: black; }
+/* TODAS LAS PAGINAS POSEEN LOS SIGUENTES ESTILOS */
+/* TEXTOS*/
+/*Colores*/
+/*Fuente*/
+/*Tamaño*/
+/*Transform y decoration*/
+/*FONDOS*/
+/*Fondos de secciones y titulos*/
+/* RESET */
+* {
+  padding: 0%;
+  margin: 0%; }
+
+/* BARRA DE NAVEGACION */
+header {
+  background-color: white; }
+  header li {
+    padding-left: 15px; }
+    header li li a {
+      color: black;
+      font-family: assistant;
+      font-size: 35px; }
+
+/* LOGO */
+.myEstilo_logo {
+  font-size: 35px; }
+
+/* PRESENTACION DE PAGINAS */
+.myEstilo_presentacion {
+  font-family: assistant;
+  background-color: rgba(137, 35, 35, 0.338); }
+  .myEstilo_presentacion h1 {
+    font-size: 50px; }
+  .myEstilo_presentacion h2 {
+    font-size: 30px;
+    text-transform: uppercase; }
+  .myEstilo_presentacion p, .myEstilo_presentacion a {
+    font-size: 25px; }
+
+/* TITULO DE SECCION */
+.myEstilo_secciones {
+  font-family: assistant;
+  background-color: rgba(137, 35, 35, 0.338);
+  height: 50px;
+  width: 100%;
+  font-size: 40px;
+  text-transform: uppercase; }
+
+/* FOOTER */
+.miEstilo_copy {
+  font-family: assistant; }
+
+/* TEXTOS*/
+/*Colores*/
+/*Fuente*/
+/*Tamaño*/
+/*Transform y decoration*/
+/*FONDOS*/
+/*Fondos de secciones y titulos*/

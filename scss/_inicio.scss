@@ -6,41 +6,27 @@ $white: white;
 $greyforte: rgb(106, 106, 106);
 $greylight: rgba(210, 210, 210, 0.66);
 $mayuscula: uppercase;
-//Estilo de la barra de navegación - TODAS LAS PAGINAS////////////////////////////////
-header {
-  background-color: $white;
-  li {
-    padding-left: 15px;
-    li a {
-      color: $black;
-      font-family: $titulo;
-      font-size: $grande;
-    }
-  }
-}
-.textoLogo {
-  font-size: 35px;
-}
-/* estilo de CARRUSEL - PAGINA INICIO*/
-.carrusel_estilo {
-  font-family: assistant;
+@import"variables";
+
+
+
+/* CARRUSEL - PAGINA INICIO*/
+.myEstilo_carrusel {
+  font-family: $tipografia-general;
   h1{
-  text-transform: uppercase;
+  text-transform: $transform;
   }
   p, a{
-    font-size: 30px;
+    font-size: $fuente-mediana;
   }
 }
 
 /* Titulo de las tajetas de pagina INICIO Y SERVICIOS */
-.card-title {
-  font-family: $titulo;
-  font-size: $grande;
-  color: $greyforte;
+.miEstilo_card--titulo {
+  font-family: $tipografia-general;
+  font-size: $fuente-mediana;
+  color: $color-texto--grisOsc;
 }
-
-/*-- QUIENES SOMOS - Sección 3 - PAGINA INICIO*/
-
 
 /* SECCION 4- PAGINA INICIO */
 /* Parrafo */
@@ -58,8 +44,8 @@ header {
   color: $black;
   margin-top: 30px;
 }
-/* Marcas */
 
+/* Marcas */
 .angela {
   margin-top: 30px;
   width: 400px;

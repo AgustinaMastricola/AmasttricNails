@@ -11,52 +11,42 @@
     <!-- Link a bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">    <!-- links a css -->
     <link rel="stylesheet" href="./css/style.css">
-
     <!-- Font Family - ASSISTANT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@231;300&display=swap" rel="stylesheet">
     <!-- link a animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 <body class="user-select-none">
-<!-- Barra de navegacion de Bootstrap -->
+<!-- BARRA DE NAVEGACION -->
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand textoLogo user-select-none" href="./index.html">AMMASTRIC NAILS</a>
+                <a class="navbar-brand myEstilo_logo" href="./index.html">AMMASTRIC NAILS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/promos.html">PROMOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/servicios.html">SERVICIOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/sobremi.html">SOBRE MI</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/promos.html">PROMOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/servicios.html">SERVICIOS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/sobremi.html">SOBRE MI</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">CONTACTO</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <!-- CARRUSEL CON BOOTSTRAP -Seccion 1 -->
+<!-- CARRUSEL CON BOOTSTRAP -Seccion 1 -->
     <main>
         <div class="container user-select-none">
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel carousel-inner">
                     <div class="carousel-item active">
                         <img src="./imagenes/slideInicio.jpg" class="d-block w-100" alt="Hojas otoñales">
-                        <div class="carousel-caption d-md-block carrusel_estilo">
+                        <div class="carousel-caption d-md-block myEstilo_carrusel">
                             <h1>¡El cuidado que tus uñas se merecen!</h1>
                             <p class="d-none d-xl-block d-xxl-block" >No te pierdas las increibles promociones que tenemos para vos.</p>
                             <a class="btn btn-outline-light d-flex justify-content-center mx-auto col-auto" href="./pages/promos.html">PROMOCIONES</a>
@@ -65,75 +55,74 @@
                 </div>
             </div>
         </div>
-<!-- TARJETAS DE SERVICIOS - Sección 2 -->
-<div class="bg-gradient bg-grey text-center py-5 mb-4 ">
-    <div class="presentacion_secciones">
-        <h1 class="fw-light">servicios</h1>
+    </main>
+
+<!-- SECCION DE SER5VICIOS -->
+    <div class="bg-gradient bg-grey text-center py-5 mb-4 ">
+        <div class="myEstilo_secciones">
+            <h1 class="fw-light">servicios</h1>
+        </div>
     </div>
-</div>
-    <!-- Tarjeta 1 -->
+
+<!-- TARJETAS -->
     <div class="row item-center d-flex justify-content-center">
-        <div class="card m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
-            <a href="./pages/servicios.html#manicuria"><img class="card-img-top" src="./imagenes/manicura-inicio.png" alt="Imagen de manicura"></a>
+        <!-- Tarjeta 1 -->
+        <div class="m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
+            <a href="./pages/servicios.html#manicuria"><img class="card-img-top border-radius" src="./imagenes/manicura-inicio.png" alt="Imagen de manicura"></a>
             <div class="card-body">
-                <p class="card-title text-center">MANICURA</p>
+                <p class="miEstilo_card--titulo text-center">MANICURA</p>
             </div>
         </div>
-    <!-- Tarjeta 2 -->
-        <div class="card m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
-            <a href="./pages/servicios.html#pedicuria"><img class="card-img-top" src="./imagenes/pedicura-inicio.jpg" alt="Imagen de pedicuría"></a>
+        <!-- Tarjeta 2 -->
+        <div class=" m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
+            <a href="./pages/servicios.html#pedicuria"><img class="card-img-top border-radius" src="./imagenes/pedicura-inicio.jpg" alt="Imagen de pedicuría"></a>
             <div class="card-body">
-                <p class="card-title text-center">PEDICURA</p>
+                <p class="miEstilo_card--titulo text-center">PEDICURA</p>
             </div>
         </div>
-    <!-- Tarjeta 3 -->
-        <div class="card m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
-            <a href="./pages/servicios.html#otrosServicios"><img class="card-img-top" src="./imagenes/otros-inicio.jpg" alt="Pestañas y cejas"></a>
+        <!-- Tarjeta 3 -->
+        <div class=" m-3 animate__animated animate__fadeInUp" style="width: 23rem; height: 23rem;">
+            <a href="./pages/servicios.html#otrosServicios"><img class="card-img-top border-radius" src="./imagenes/otros-inicio.jpg" alt="Pestañas y cejas"></a>
             <div class="card-body">
-                <p class="card-title text-center">OTROS SERVICIOS</p>
+                <p class="miEstilo_card--titulo text-center">OTROS SERVICIOS</p>
             </div>
         </div>
     </div>
-</main>
+
 <!-- QUIENES SOMOS - Sección 3  -->
-<div class="bg-gradient bg-grey text-center py-5 mb-4 presentacion_pages">
-    <div class="container ">
-        <h2 class="fw-light">Conocenos un poco más</h2>
-        <p>Para saber más acerca de nuestros profesionales, su trayectoria y conocimientos. Todo lo que necesites saber te lo contamos.</p>
-        <a class="btn btn-light col col3" href="./pages/sobremi.html" role="button">QUIERO SABER MÁS</a>
+    <div class="bg-gradient bg-grey text-center py-5 mb-4 myEstilo_presentacion">
+        <div class="container ">
+            <h2 class="fw-light">Conocenos un poco más</h2>
+            <p>Para saber más acerca de nuestros profesionales, su trayectoria y conocimientos. Todo lo que necesites saber te lo contamos.</p>
+            <a class="btn btn-light col col3" href="./pages/sobremi.html" role="button">QUIERO SABER MÁS</a>
+        </div>
     </div>
-</div>
 
 <!-- COMPROMISO - Sección 4 -->
-<div class="bg-gradient bg-white text-center py-5 mb-4 presentacion_pages">
-    <div class="container seccion4">
-        <h2 class="fw-light">Nuestro compromiso</h2>
-        <p>"Nuestro compromiso no es sólo con la belleza, salud y bienestar. Sino también con el medio ambiente y los animales. Por eso todos los productos que utilizamos son CRUELTY FREE, y los desechos que generamos, son separados para su posterior reciclado"</p>
-        <img class="angela" src="./imagenes/marcas1.png" alt="Marca Angela Bresciano">
-        <img class="pinkmask" src="./imagenes/marcas2.png" alt="Marca Pink Mask">
-        <img class="cherimoya" src="./imagenes/marcas3.png" alt="Marca Cherimoya">
+    <div class="bg-gradient bg-white text-center py-5 mb-4 myEstilo_presentacion">
+        <div class="container seccion4">
+            <h2 class="fw-light">Nuestro compromiso</h2>
+            <p>"Nuestro compromiso no es sólo con la belleza, salud y bienestar. Sino también con el medio ambiente y los animales. Por eso todos los productos que utilizamos son CRUELTY FREE, y los desechos que generamos, son separados para su posterior reciclado"</p>
+            <img class="angela" src="./imagenes/marcas1.png" alt="Marca Angela Bresciano">
+            <img class="pinkmask" src="./imagenes/marcas2.png" alt="Marca Pink Mask">
+            <img class="cherimoya" src="./imagenes/marcas3.png" alt="Marca Cherimoya">
+        </div>
     </div>
-</div>
-<!-- PIE DE PAGINA -->
 
+    <!-- PIE DE PAGINA -->
+    <footer class="flex-shrink-0 py-4 bg-dark text-white">
+        <div class="container d-flex align-items-center justify-content-lg-between text-center">
+            <h5 class="miEstilo_copy">Copyright &copy; Amasttric Nails</h5>
+            <ul class="nav col-4 col-md-3 align-items-center justify-content-sm-around d-flex">
+                <li><a target="_blank" href="https://www.facebook.com/"><img src="./imagenes/facebook.svg"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/amasttric_nails/"><img src="./imagenes/instagram.svg"></a></li>
+                <li><a target="_blank" href="https://wa.me/543516783638"><img src="./imagenes/whatsapp.svg"></a></li>
+            </ul>
+        </div>
+    </footer>
 
-
-
-<footer class="flex-shrink-0 py-4 bg-dark text-white">
-    <div class="container d-flex align-items-center justify-content-lg-between text-center">
-        <h5>Copyright &copy; Amasttric Nails</h5>
-        <ul class="nav col-md-4 align-items-center justify-content-sm-around d-flex">
-            <li><a target="_blank" href="https://www.facebook.com/"><img src="./imagenes/facebook.svg"></a></li>
-            <li><a target="_blank" href="https://www.instagram.com/amasttric_nails/"><img src="./imagenes/instagram.svg"></a></li>
-            <li><a target="_blank" href="https://wa.me/543516783638"><img src="./imagenes/whatsapp.svg"></a></li>
-        </ul>
-    </div>
-</footer>
-
-
-<!-- JavaScript Bundle with Popper -->
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 </body>
 </html>

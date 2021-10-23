@@ -1,0 +1,28 @@
+/* TEXTOS*/
+/*Colores*/
+$color-texto--black: black;
+$color-texto--white: white;
+$color-texto--grisOsc: rgb(106, 106, 106);
+$color-texto--grisCla:rgba(210, 210, 210, 0.66);
+$color-texto--rosa:rgba(137, 35, 35, 0.338);
+
+/*Fuente*/
+$tipografia-general: assistant;
+
+/*Tamaño*/
+$fuente-grande:40px;
+$fuente-mediana:30px;
+$fuente-chica:20px;
+$fuente-titulos:50px;
+$fuente-subtitulos:35px;
+
+/*Transform y decoration*/
+$transform: uppercase;
+$decoration: underline;
+$weight: bold;
+
+/*FONDOS*/
+/*Fondos de secciones y titulos*/
+$background-grisOsc: rgba(169, 169, 169, 0.338);
+$background-sections:rgba(137, 35, 35, 0.338);
+

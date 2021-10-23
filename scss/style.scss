@@ -1,10 +1,9 @@
-/* Reset margin y padding */
-@import "reset"; //correcto
 /* Estilos de cada página */
 @import "inicio";
-@import "contacto";
-@import "servicios";
+@import "contacto"; //LISTO
+@import "servicios"; //LISTO
 @import "promos";
 @import "sobremi";
 /* Estilos que se repiten en todas las paginas */
-@import "global";
+@import "global";//LISTO
+@import "variables";

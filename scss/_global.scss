@@ -1,25 +1,51 @@
-
-$texto: bodoni moda;
-$titulo: assistant;
-$mediana: 20px;
-$grande: 25px;
-$greyforte: rgb(106, 106, 106);
-$greylight: rgba(210, 210, 210, 0.66);
-$white: white;
-$black: black;
-$mayuscula: uppercase;
-$negrita: bold;
-$ancho:50px;
-$alto:50px;
-
-/* ESTILO DE FOOTER + ICONOS - TODAS LAS PAGINAS */
-.background{
-    background-color: rgb(255, 201, 201) ;
-    h3{
-        font-family: $titulo;
-        font-size: $grande;
-        text-transform: $mayuscula;
-        color: rgb(0, 0, 0);
+/* TODAS LAS PAGINAS POSEEN LOS SIGUENTES ESTILOS */
+@import"variables";
+/* RESET */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* BARRA DE NAVEGACION */
+header {
+    background-color: $color-texto--white;
+    li {
+        padding-left: 15px;
+        li a {
+            color: $color-texto--black;
+            font-family: $tipografia-general;
+            font-size: $fuente-subtitulos;
+        }
     }
 }
-
+/* LOGO */
+.myEstilo_logo {
+    font-size: 35px;
+}
+/* PRESENTACION DE PAGINAS */
+.myEstilo_presentacion{
+    font-family: $tipografia-general;
+    background-color: $background-sections;
+    h1 {
+        font-size: $fuente-titulos;
+    }
+    h2{
+        font-size: $fuente-mediana;
+        text-transform: $transform;
+    }
+    p, a{
+        font-size: 25px;
+    }
+}
+/* TITULO DE SECCION */
+.myEstilo_secciones{
+    font-family: $tipografia-general;
+    background-color: $background-sections;
+    height: 50px;
+    width: 100%;
+    font-size: $fuente-grande;
+    text-transform: $transform;
+}
+/* FOOTER */
+.miEstilo_copy{
+    font-family: $tipografia-general;
+}
