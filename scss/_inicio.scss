@@ -1,48 +1,21 @@
-$titulo: assistant;
-$mediano: 25px;
-$grande: 30px;
-$black: black;
-$white: white;
-$greyforte: rgb(106, 106, 106);
-$greylight: rgba(210, 210, 210, 0.66);
-$mayuscula: uppercase;
 @import"variables";
-
-
 
 /* CARRUSEL - PAGINA INICIO*/
 .myEstilo_carrusel {
   font-family: $tipografia-general;
-  h1{
-  text-transform: $transform;
-  }
-  p, a{
-    font-size: $fuente-mediana;
-  }
+    h1{
+    text-transform: $transform;
+    }
+    p, a{
+      font-size: $fuente-mediana;
+    }
 }
 
-/* Titulo de las tajetas de pagina INICIO Y SERVICIOS */
+/* Titulo TARJETAS */
 .miEstilo_card--titulo {
   font-family: $tipografia-general;
   font-size: $fuente-mediana;
   color: $color-texto--grisOsc;
-}
-
-/* SECCION 4- PAGINA INICIO */
-/* Parrafo */
-.seccion4 h3 {
-  color: $black;
-  font-family: assistant;
-  font-size: $grande;
-  text-transform: $mayuscula;
-  font-weight: bold;
-  text-decoration: underline;
-}
-.seccion4 p {
-  font-size: $mediano;
-  font-family: assistant;
-  color: $black;
-  margin-top: 30px;
 }
 
 /* Marcas */
@@ -56,7 +29,7 @@ $mayuscula: uppercase;
   height: 100px;
 }
 .cherimoya {
-    margin-top: 100px;
+  margin-top: 100px;
   width: 400px;
   height: 200px;
 }

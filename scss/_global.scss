@@ -1,5 +1,6 @@
 /* TODAS LAS PAGINAS POSEEN LOS SIGUENTES ESTILOS */
 @import"variables";
+
 /* RESET */
 *{
     padding: 0%;
@@ -25,15 +26,19 @@ header {
 .myEstilo_presentacion{
     font-family: $tipografia-general;
     background-color: $background-sections;
+    color: $color-texto--black;
     h1 {
         font-size: $fuente-titulos;
+        font-weight: $weight;
     }
     h2{
         font-size: $fuente-mediana;
         text-transform: $transform;
+        text-decoration: $decoration;
     }
     p, a{
         font-size: 25px;
+        margin-top: 25px;
     }
 }
 /* TITULO DE SECCION */

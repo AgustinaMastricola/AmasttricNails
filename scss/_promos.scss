@@ -1,33 +1,25 @@
-
-
-
-
-
-
-
-
+@import "variables";
 
 /* PAGINA PROMOCIONES - Tarjetas */
-.tarjeta_promos{
+.myTarjeta_promos{
     padding: 20px;
-    font-family: assistant;
+    font-family: $tipografia-general;
     text-align: center;
-}
-.tarjeta_promos--style{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    h3 {
-        font-size: 50px;
-        background: rgba(169, 169, 169, 0.338);
-        width: auto;
-    }
-    p {
-        font-size: 35px;
-        background: rgba(239, 239, 239, 0.181);
-    }
-    a{
-        font-size: 25px;
-        font-weight: bold;
+    .myTarjeta_promos--style{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h3 {
+            font-size: $fuente-titulos;
+            background: $background-grisOsc;
+            width: auto;
+        }
+        p {
+            font-size: $fuente-subtitulos;
+        }
+        a{
+            font-size: $fuente-chica;
+            font-weight: $weight;
+        }
     }
 }

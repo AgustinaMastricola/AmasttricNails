@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Estilos de cada página */
-/* TEXTOS*/
 /*Colores*/
 /*Fuente*/
 /*Tamaño*/
@@ -15,27 +14,11 @@
   .myEstilo_carrusel p, .myEstilo_carrusel a {
     font-size: 30px; }
 
-/* Titulo de las tajetas de pagina INICIO Y SERVICIOS */
+/* Titulo TARJETAS */
 .miEstilo_card--titulo {
   font-family: assistant;
   font-size: 30px;
   color: #6a6a6a; }
-
-/* SECCION 4- PAGINA INICIO */
-/* Parrafo */
-.seccion4 h3 {
-  color: black;
-  font-family: assistant;
-  font-size: 30px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: underline; }
-
-.seccion4 p {
-  font-size: 25px;
-  font-family: assistant;
-  color: black;
-  margin-top: 30px; }
 
 /* Marcas */
 .angela {
@@ -52,7 +35,6 @@
   width: 400px;
   height: 200px; }
 
-/* TEXTOS*/
 /*Colores*/
 /*Fuente*/
 /*Tamaño*/
@@ -83,7 +65,6 @@
     text-decoration: none;
     display: inline-block; }
 
-/* TEXTOS*/
 /*Colores*/
 /*Fuente*/
 /*Tamaño*/
@@ -95,28 +76,31 @@
   font-family: assistant;
   font-size: 20px; }
 
+/*Colores*/
+/*Fuente*/
+/*Tamaño*/
+/*Transform y decoration*/
+/*FONDOS*/
+/*Fondos de secciones y titulos*/
 /* PAGINA PROMOCIONES - Tarjetas */
-.tarjeta_promos {
+.myTarjeta_promos {
   padding: 20px;
   font-family: assistant;
   text-align: center; }
+  .myTarjeta_promos .myTarjeta_promos--style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .myTarjeta_promos .myTarjeta_promos--style h3 {
+      font-size: 50px;
+      background: rgba(169, 169, 169, 0.338);
+      width: auto; }
+    .myTarjeta_promos .myTarjeta_promos--style p {
+      font-size: 35px; }
+    .myTarjeta_promos .myTarjeta_promos--style a {
+      font-size: 20px;
+      font-weight: bold; }
 
-.tarjeta_promos--style {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-  .tarjeta_promos--style h3 {
-    font-size: 50px;
-    background: rgba(169, 169, 169, 0.338);
-    width: auto; }
-  .tarjeta_promos--style p {
-    font-size: 35px;
-    background: rgba(239, 239, 239, 0.181); }
-  .tarjeta_promos--style a {
-    font-size: 25px;
-    font-weight: bold; }
-
-/* TEXTOS*/
 /*Colores*/
 /*Fuente*/
 /*Tamaño*/
@@ -281,7 +265,6 @@
 
 /* Estilos que se repiten en todas las paginas */
 /* TODAS LAS PAGINAS POSEEN LOS SIGUENTES ESTILOS */
-/* TEXTOS*/
 /*Colores*/
 /*Fuente*/
 /*Tamaño*/
@@ -310,14 +293,18 @@ header {
 /* PRESENTACION DE PAGINAS */
 .myEstilo_presentacion {
   font-family: assistant;
-  background-color: rgba(137, 35, 35, 0.338); }
+  background-color: rgba(137, 35, 35, 0.338);
+  color: black; }
   .myEstilo_presentacion h1 {
-    font-size: 50px; }
+    font-size: 50px;
+    font-weight: bold; }
   .myEstilo_presentacion h2 {
     font-size: 30px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-decoration: underline; }
   .myEstilo_presentacion p, .myEstilo_presentacion a {
-    font-size: 25px; }
+    font-size: 25px;
+    margin-top: 25px; }
 
 /* TITULO DE SECCION */
 .myEstilo_secciones {
@@ -332,7 +319,6 @@ header {
 .miEstilo_copy {
   font-family: assistant; }
 
-/* TEXTOS*/
 /*Colores*/
 /*Fuente*/
 /*Tamaño*/
