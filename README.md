@@ -1,5 +1,5 @@
 # AmasttricNails
-Este es un proyecto realizado para el curso de Desarrollo Web, en CoderHouse.
+Este es un proyecto realizado para el curso de Desarrollo Web, en CoderHouse 2021.
 Calificación obtenida: 10 (diez)
 
 El proyecto está orientado a un sitio web estático, compuesto por 5 páginas. Destinado a los clientes de un salón de Spa. Entre las diferentes páginas se encuentra un inicio, el cual tiene acceso al resto de las páginas en sus diferentes secciones. 
