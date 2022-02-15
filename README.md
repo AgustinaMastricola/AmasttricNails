@@ -7,6 +7,7 @@ También encontramos una página de promociones, con sus detalles y condiciones.
 
 
 # Construido con 🛠️
+- HTML maquetado.
 - Bootstrapp v5.1.3 El framework utilizado para el diseño.
 - SASS: Preprocesador de CSS.
 
